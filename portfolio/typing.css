@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin: 30px;
+}
+.index{
+    margin: 40px 20px 20px 20px;
+}
+a{
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.easy, .again-e{
+    background-color: cadetblue;
+}
+.normal, .again-n{
+    background-color: rgb(141, 160, 95);
+}
+.hard, .again-h{
+    background-color: rgb(160, 99, 95);
+}
+.extra, .again-ex{
+    background-color: rgb(160, 95, 159);
+}
+.home{
+    background-color: rgb(99, 99, 99);
+}
+#sec{
+    font-size: 50px;
+}
+#scoreA{
+    font-size: 30px;
+    color: rgb(33, 79, 159);
+}
+#life{
+    font-size: 30px;
+    color: rgb(159, 33, 33);
+}
+#content{
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    display: flex;
+    font-size: 40px;
+}
+#already{
+    color: #AAAAAA;
+    float: left;
+}
+.footer{
+    display: block;
+    width: max-content;
+    margin: 30px auto 0 auto;
+}
+.result{
+    background-color: #999999;
+}
+#scoreB, #message{
+    display: block;
+    width: max-content;
+    margin: 0 auto 0 auto;
+    color: #ffffff;
+    font-size: 40px;
+}
