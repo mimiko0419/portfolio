@@ -22,7 +22,7 @@ function push_Keydown(event){
         if(Q[Q_No].charAt(Q_i) == keyCode){//押したキーが合っていたら
             Q_i++;//判定する文章に1足す
             score++;
-            document.getElementById("scoreA").innerHTML = score;
+            document.getElementById("scoreA").innerHTML = "score：" + score;
             document.getElementById("start").innerHTML = Q[Q_No].substring(Q_i, Q_l);//問題書き出し
     
             if(Q_l-Q_i === 0){//全部正解したら
@@ -43,7 +43,7 @@ function countdown_decision(event){
     if(event.key === " " && score === 0){
         countdown();
         decision++;
-        document.getElementById("scoreA").innerHTML = score;
+        document.getElementById("scoreA").innerHTML = "score：" + score;
     }
 }
 
